@@ -1,0 +1,10 @@
+version: 1.5.2
+apkFileName: com.android.cm3_1.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+packageInfo:
+  cur_package: com.android.cm3
+  orig_package: com.android.cm3
+compressionType: false
