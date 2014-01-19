@@ -1,6 +1,6 @@
-add lr, pc, #8
-ldw r0, =0x556c
-add pc, r21, r0
+#add lr, pc, #8
+#ldw r0, =0x556c
+#add pc, r21, r0
 mov r1, #5
 mov r0, #0
 
