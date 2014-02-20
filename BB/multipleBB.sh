@@ -43,7 +43,7 @@ do
 	echo $op | xxd -r >> map.bin
 	
 	#offset for searching BB
-	offset4SBB=`echo "$1 $MBLength $offsetOfDex_hex" | awk '{print $1+$2-$3}'`
+	offset4SBB=`echo "$1 $MBLength $offsetOfDex" | awk '{print $1+$2-$3}'`
 	echo "offset4SBB is $offset4SBB"
 	printf "0x%08x" $offset4SBB | xxd -r > offset4SBB.tmp
 	rm -f tmp.offset4SBB_*
