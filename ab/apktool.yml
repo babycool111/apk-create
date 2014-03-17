@@ -1,0 +1,12 @@
+version: 1.5.2
+apkFileName: Android-Benchmark.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '3'
+packageInfo:
+  cur_package: uk.ac.ic.doc.gea05.benchmark
+  orig_package: uk.ac.ic.doc.gea05.benchmark
+compressionType: false
